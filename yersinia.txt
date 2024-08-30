@@ -1,0 +1,14 @@
+yersinia -G
+
+sudo apt-get install yersinia
+apt-get install yersinia -G
+lsb_release -a
+
+apt remove --auto-remove yersinia
+
+apt purge --auto-remove yersinia
+
+git clone https://github.com/tomac/yersinia /opt/yersinia
+
+sending DISCOVER packet
+
